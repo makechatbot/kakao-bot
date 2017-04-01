@@ -59,8 +59,6 @@ def message():
         if 'response' in res.keys():
             result = res['response']
 
-    if res['result'] != 100:
-        result
     print("MJ Chat Bot >> " + result)
     draw_line()
 
